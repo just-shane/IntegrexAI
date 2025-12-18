@@ -8,10 +8,10 @@ interface SidebarProps {
 
 const Sidebar: React.FC<SidebarProps> = ({ onFeatureSelect }) => {
   const machineData = {
-    model: "Integrex i-200S",
+    model: "INTEGREX 100-IV",
     control: "Matrix",
     uptime: "142h 22m",
-    lastService: "2024-03-15"
+    lastService: "Check 6-mo sched"
   };
 
   return (

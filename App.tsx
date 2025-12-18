@@ -12,7 +12,7 @@ const App: React.FC = () => {
       [Feature.MAZATROL]: "Can you explain how to set up a BAR OUT unit in Mazatrol Matrix?",
       [Feature.GCODE]: "What is the G-code for B-axis indexing to 45 degrees on an Integrex?",
       [Feature.TOOLING]: "What are the recommended cutting parameters for machining 316 Stainless Steel with a 1/2 inch end mill on the milling spindle?",
-      [Feature.MAINTENANCE]: "How do I troubleshoot Mazak Alarm 200: Thermal Trip?"
+      [Feature.MAINTENANCE]: "I have an Alarm 217 THERMAL TRIP. Which thermal relay should I check?"
     };
     
     setPendingPrompt(prompts[feature]);
@@ -46,7 +46,7 @@ const App: React.FC = () => {
             <span className="text-[10px] font-bold text-slate-300">SYSTEM READY</span>
           </div>
           <div className="bg-slate-900/80 backdrop-blur-md px-3 py-1.5 rounded-full border border-slate-700 flex items-center space-x-2">
-            <span className="text-[10px] font-bold text-slate-300 uppercase tracking-wide">Integrex i-200S</span>
+            <span className="text-[10px] font-bold text-slate-300 uppercase tracking-wide">Integrex 100-IV</span>
           </div>
         </div>
       </main>
