@@ -1,0 +1,7 @@
+{
+  "name": "IntegrexAI - Mazak Specialist",
+  "description": "A dedicated AI assistant for Mazak Integrex operators and programmers, providing expert guidance on Mazatrol, EIA/ISO G-code, tooling, and maintenance.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
